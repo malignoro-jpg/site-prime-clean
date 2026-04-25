@@ -1,0 +1,118 @@
+Profissional</title>
+    <style>
+        :root {
+            --azul-prime: #004a8d;
+            --verde-whatsapp: #25d366;
+            --cinza-fundo: #f4f7f6;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            color: #333;
+            background-color: var(--cinza-fundo);
+        }
+
+        /* Menu de Navegação */
+        nav {
+            background: #fff;
+            padding: 1rem 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .logo-nav {
+            height: 60px;
+            width: auto;
+        }
+
+        /* Seção Principal */
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 80px 20px;
+            text-align: center;
+        }
+
+        .logo-principal {
+            max-width: 350px;
+            width: 100%;
+            height: auto;
+            margin-bottom: 30px;
+            filter: drop-shadow(0 5px 15px rgba(0,0,0,0.1));
+        }
+
+        h1 {
+            color: var(--azul-prime);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #666;
+            max-width: 600px;
+        }
+
+        /* Botão de Ação */
+        .cta-button {
+            background-color: var(--verde-whatsapp);
+            color: white;
+            padding: 15px 35px;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin-top: 30px;
+            transition: transform 0.2s, background-color 0.2s;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.3);
+        }
+
+        .cta-button:hover {
+            background-color: #1eb954;
+            transform: scale(1.05);
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 20px;
+            font-size: 0.9rem;
+            color: #999;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <img src="logo_prime_clean.png" alt="Logo Prime Clean" class="logo-nav">
+        <div class="contato-rapido">
+            <a href="tel:+550000000000" style="text-decoration: none; color: var(--azul-prime); font-weight: bold;">Fale Conosco</a>
+        </div>
+    </nav>
+
+    <main>
+        <img src="logo_prime_clean.png" alt="Prime Clean Soluções" class="logo-principal">
+        
+        <h1>Limpeza que transforma, qualidade que fica.</h1>
+        <p>Especialistas em soluções de limpeza para residências e empresas com o padrão Prime de excelência.</p>
+
+        <a href="https://wa.me/seunumeroaqui" class="cta-button">
+            Solicitar Orçamento via WhatsApp
+        </a>
+    </main>
+
+    <footer>
+        &copy; 2026 Prime Clean Soluções - Todos os direitos reservados.
+    </footer>
+
+</body>
+</html>
